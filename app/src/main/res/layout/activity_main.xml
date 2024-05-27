@@ -7,6 +7,19 @@
     android:background="#8BC34A"
     tools:context=".MainActivity">
 
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:clickable="true"
+        android:src="@android:drawable/baseline_"
+        app:layout_constraintBottom_toTopOf="@+id/lin1"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+
     <com.google.android.material.appbar.AppBarLayout
         android:id="@+id/appBarLayout"
         android:layout_width="match_parent"
@@ -28,6 +41,7 @@
 
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
         android:layout_width="480dp"
         android:layout_height="659dp"
         android:layout_marginStart="1dp"
