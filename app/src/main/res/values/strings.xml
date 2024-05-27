@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">Fint väder</string>
+    <string name="app_name">BraedSpela</string>
+    <string name="about">About BraedSpela</string>
+    <string name="help">Help</string>
 </resources>
